@@ -75,11 +75,11 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-purple-950 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-950">
       {/* Elementos decorativos de fondo */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-violet-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-violet-800/10 rounded-full blur-3xl"></div>
       </div>
 
       {/* Contenido */}
@@ -91,7 +91,7 @@ function App() {
               DIARIO PÚBLICO
             </span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-3 bg-gradient-to-r from-amber-300 via-purple-300 to-violet-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl py-3 font-bold  bg-gradient-to-r from-amber-500 via-purple-300 to-violet-400 bg-clip-text text-transparent">
             Warling
           </h1>
           <p className="text-purple-300/80 text-lg max-w-2xl mx-auto">
